@@ -32,3 +32,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "frozen-forest-51274" #Must be unique in Heroku
           heroku_email: "mikelmi84@gmail.com"
+          healthcheck: "https://frozen-forest-51274.herokuapp.com/health"
